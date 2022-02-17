@@ -123,6 +123,21 @@ Input "php workerman stop --d" to stop. Start success.
 ~~~
 
 
+#### 测试
+
+通过 `telnet` 连接配置的连接 `tcp://0.0.0.0:8282`
+~~~
+> telnet tcp://0.0.0.0:8282
+Trying 127.0.0.1...
+Connected to 127.0.01.
+Escape character is '^]'.
+Hello 7f00000107d200000001
+7f00000107d200000001 login
+~~~
+
+
+
+
 ## License
 
 MIT
